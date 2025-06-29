@@ -11,7 +11,7 @@ export default function FooterCom() {
               to='/'
               className='self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white'
             >
-               <span className=" lg:text-3xl text-2xl px-2 py-1 bg-gradient-to-r from-indigo-500 rounded-lg">
+               <span className=" lg:text-3xl text-2xl px-2 py-1  rounded-lg">
           <span className="lg:text-4xl text-3xl">Write</span>Wave
         </span>
             </Link>
