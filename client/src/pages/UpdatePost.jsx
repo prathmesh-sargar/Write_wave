@@ -102,8 +102,9 @@ export default function UpdatePost() {
     e.preventDefault();
     
     try {
-      const res = await fetch(`/api/post/updatepost/${postId}/${currentUser._id}`, {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/post/updatepost/${postId}/${currentUser._id}`, {
         method: 'PUT',
+         credentials: 'include',
         headers: {
           'Content-Type': 'application/json',
         },
